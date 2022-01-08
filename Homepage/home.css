@@ -1,0 +1,344 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    font-family: serif;
+    text-decoration: none;
+}
+
+body{
+    margin:auto
+}
+
+/* Search Css */
+#search{
+    height:450px;
+    background-image: linear-gradient(180deg, transparent, rgb(98 39 11))  ,url('image/main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 700px;
+}
+
+#logo{
+    height:120px;
+    width:120px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 3%;
+    position: absolute;
+    font-size:80px;
+    color:#0b6200;
+}
+
+#logo > span {
+    margin-left: 32%;
+    margin-top: 15%;
+    font-size: 60px;
+    position: absolute;
+}
+
+#heading{
+    margin-left: 29%;
+    margin-top: 13%;
+    position: absolute;
+    font-size:45px;
+    color:white
+}
+
+.dropdown{
+    height:60px;
+    width:60%;
+    margin-left: 27%;
+    margin-top: 19%;
+    position: absolute;
+}
+
+select{
+    height:60px;
+    width:35%
+}
+
+select option{
+    text-align: center;
+}
+
+.restaurantSelect{
+    width:45%
+}
+
+/* Quick Search */
+#QuickSearch{
+    width:80%;
+    margin-left:17%;
+    margin-top:3%;
+    display: inline-block
+}
+
+#QuickHeading{
+    display:block;
+    color:#ac2e31;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+
+#QuickSubHeading{
+    line-height: 2;
+    color:gray;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+.tileContainer{
+    height:180px;
+    width:600px;
+    padding-left: 0;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    box-shadow: 10px 20px 15px gray;
+    border-radius: 10px;
+}
+
+.tileComponent1{
+    width:50%;
+    float: left;
+    height:180px;
+}
+
+.tileComponent1 >img{
+    width:100%;
+    height:180px;
+}
+
+.tileComponent2{
+    width:40%;
+    float: left;
+    height:100px;
+    margin-left: 5%;
+    margin-top: 12%;
+}
+
+.componentHeading{
+    color:#ac2e31;
+    font-size: 25px;
+}
+
+.componentHeading > a{
+    color:#ac2e31 !important;
+    text-decoration: none;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size: 15px;
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color: #ffffff;
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: #ffffff;
+    }
+
+    #heading{
+        margin-left: 28%;
+        margin-top: 15%;
+    }
+
+    .dropdown{
+        margin-left: 27%;
+        margin-top: 22%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: #ffffff;
+    }
+    #heading{
+        margin-left: 22%;
+        margin-top: 19%;
+    }
+    .dropdown{
+        margin-left: 27%;
+        margin-top: 27%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color: #ffffff;
+    }
+    #logo{
+        margin-left: 40%;
+    }
+    #heading{
+        margin-left: 20%;
+        margin-top: 24%;
+        font-size: 30px;
+    }
+    .dropdown{
+        margin-left: 20%;
+        margin-top: 34%;
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color: #ffffff;
+    }
+    #logo{
+        margin-left: 37%;
+    }
+    #heading{
+        margin-left: 15%;
+        margin-top: 27%;
+        font-size:35px
+    }
+    .dropdown{
+        margin-left: 28%;
+        margin-top: 38%;
+    }
+
+    .select{
+        font-size: 15px;
+        width: 60%;
+        height: 50px;
+        
+    }
+
+    .restaurantSelect{
+        font-size: 15px;
+        width: 60%;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color:#ffffff;
+    }
+    #heading{
+        margin-left: 3%;
+        margin-top: 31%;
+        font-size:34px
+    }
+    .dropdown{
+        margin-left: 29%;
+        margin-top: 45%;
+    }
+
+    .select{
+        font-size: 15px;
+        width: 80%;
+        height: 50px;
+    }
+
+    .restaurantSelect{
+        font-size: 15px;
+        width: 80%;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:500px){
+    body{
+        background-color:#ffffff;
+    }
+    #heading{
+        margin-left: 1%;
+        margin-top: 31%;
+        font-size:28px
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 45%;
+    }
+
+    .select{
+        font-size: 15px;
+        width: 85%;
+        height: 50px;
+    }
+
+    .restaurantSelect{
+        font-size: 15px;
+        width: 85%;
+        height: 50px;
+    }
+
+    #logo{
+        height:100px;
+        width:100px;
+        background-color: white;
+        border-radius: 50%;
+        margin-left: 35%;
+        margin-top: 3%;
+        position: absolute;
+        font-size:80px;
+        color:#0b6200;
+    }
+    
+    #logo > span {
+        margin-left: 34%;
+        margin-top: 19%;
+        font-size: 40px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width:400px){
+    body{
+        background-color:#ffffff;
+    }
+    #heading{
+        margin-left: -2%;
+        margin-top: 39%;
+        font-size:23px
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 65%;
+    }
+
+    .select{
+        font-size: 15px;
+        width: 80%;
+        height: 50px;
+    }
+
+    .restaurantSelect{
+        font-size: 15px;
+        width: 80%;
+        height: 50px;
+    }
+
+    #logo{
+        height:80px;
+        width:80px;
+        background-color: white;
+        border-radius: 50%;
+        margin-left: 45%;
+        margin-top: 3%;
+        position: absolute;
+        font-size:80px;
+        color:#0b6200;
+    }
+    
+    #logo > span {
+        margin-left: 30%;
+        margin-top: 15%;
+        font-size: 37px;
+        position: absolute;
+    }
+
+}
